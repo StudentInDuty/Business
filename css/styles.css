@@ -1,0 +1,230 @@
+
+.colored-section{
+
+   background-color: #e8505b;
+  color: #f9ede4
+}
+
+.white-Section{
+    background-color: #f9ede4;
+    color: #8f8f8f;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.pcolored{
+color: #f9ede4
+}
+
+.header-colored-section{
+color: #000;
+}
+
+.section-heading{
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.big-heading{
+  font-size: 5rem;
+line-height: 1.5;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.help-text{
+  color: #e8505b;
+}
+
+.av-text{
+  color: #e97171;
+}
+
+a:hover {
+  color:  #e97171;
+}
+
+
+  body{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+      font-family: 'Montserrat', sans-serif;
+  }
+
+
+
+
+p{
+      font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* title section And navagation bar */
+
+
+
+.Header-img{
+  width: 1248px;
+
+}
+
+.header-bg{
+    background-color: #f9ede4;
+}
+
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.links{
+  padding: 0 18px;
+}
+
+
+
+
+
+
+/*  About us  */
+#about{
+  text-align: center;
+
+ padding: 4% 0 5% 0;
+}
+
+
+
+.about-img{
+  width: 30%;
+margin-right: 3rem;
+
+}
+
+
+.about-text{
+padding-left: 340px;
+padding-right: 340px;}
+
+
+
+/*  Work  */
+
+#work{
+  background-color: #f9ede4;
+  padding: 3% 0 3% 0;
+}
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.code-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+
+/* Contact */
+.dots{
+
+  color: #e8505b;
+
+  padding: 0 4% 8% 4%
+
+}
+
+
+#contact{
+
+  text-align: center;
+ background-color:  #f9ede4;
+ padding: 4% 0 5% 0;
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+/* footer */
+
+#footer{
+  text-align: center;
+ background-color: #e8505b;
+  padding: 4% 0 1% 0;
+}
+
+.links{
+  padding: 0 18px;
+
+color:  #f9ede4;
+font-size: 17px;
+}
+
+.cr{
+  font-size: 9px
+}
+
+
+/* @media  */
+
+
+
+@media (max-width: 992px) {
+
+  p{
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .Header-img{
+
+    width: 100%
+  }
+.about-text{padding-left: 0;
+padding-right: 0;}
+  }
+
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  p{
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .Header-img{
+
+    width: 100%
+  }
+.about-text{padding-left: 0;
+padding-right: 0;}
+}
